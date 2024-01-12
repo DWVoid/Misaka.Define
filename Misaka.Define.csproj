@@ -6,7 +6,7 @@
         <Nullable>enable</Nullable>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageId>Gravitas.Misaka.Define</PackageId>
-        <Version>0.0.1</Version>
+        <Version>0.0.2</Version>
         <Authors>DWVoid</Authors>
         <Title>Gravitas.Misaka.Define</Title>
         <Description>Shared and essential interface definitions for the Gravitas.Misaka networking collection</Description>
