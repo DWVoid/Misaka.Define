@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>Gravitas.Misaka.Define</PackageId>
+        <Version>0.0.1</Version>
+        <Authors>DWVoid</Authors>
+        <Title>Gravitas.Misaka.Define</Title>
+        <Description>Shared and essential interface definitions for the Gravitas.Misaka networking collection</Description>
+        <PackageProjectUrl>https://github.com/DWVoid/Misaka.Define</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/DWVoid/Misaka.Define</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <None Include="$(SolutionDir)/LICENSE" Pack="true" PackagePath="\"/>
+        <None Include="$(SolutionDir)/README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
+</Project>
